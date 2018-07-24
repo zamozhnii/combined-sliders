@@ -1,0 +1,43 @@
+.slider-horiz {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-vert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin: 0 40px;
+}
+
+.slider-vert span,
+.slider-horiz span {
+    padding: 20px;
+}
+    .slider-vert span p,
+    .slider-horiz span p {
+        display: none;
+    }
+
+.active {
+    background: red;
+    padding: 20px;
+}
+
+.wrap {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+    .content {
+        flex: 1 0;
+        text-align: center;
+        border: 1px solid red;
+        margin: 20px;
+    }
